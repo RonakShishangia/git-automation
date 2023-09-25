@@ -34,4 +34,4 @@ const commitCode = n => {
     });
 }
 
-commitCode(100);
+commitCode(500);
