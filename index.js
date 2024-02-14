@@ -8,7 +8,7 @@ const commitCode = n => {
     if (n === 0) return simpleGit().push();
     const x = Math.floor(Math.random() * 54) + 1 //random.int(0, 54);
     const y = Math.floor(Math.random() * 6) + 1 //random.int(0, 6); 
-    DATE = moment().subtract(1, "y").add(1, "d").add(x, 'w').add(y, 'd');
+    DATE = moment().subtract(1, "y").add(1, "d").add(x, 'w').add(y, 'd').format('YYYY-MM-DD');
 
     // Generate random hours (0-23) and minutes (0-59)
     const randomHours = Math.floor(Math.random() * 24);

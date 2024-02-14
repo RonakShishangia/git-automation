@@ -1,1 +1,1 @@
-[{"DATE":"function format(inputString) {\n        if (!inputString) {\n            inputString = this.isUtc()\n                ? hooks.defaultFormatUtc\n                : hooks.defaultFormat;\n        }\n        var output = formatMoment(this, inputString);\n        return this.localeData().postformat(output);\n    }T11:49"}]
+[{"DATE":"2024-02-14T07:05"}]
