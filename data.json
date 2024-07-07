@@ -1,1 +1,1 @@
-[{"DATE":"2023-09-14T16:21:23+05:30"}]
+[{"DATE":"function format(inputString) {\n        if (!inputString) {\n            inputString = this.isUtc()\n                ? hooks.defaultFormatUtc\n                : hooks.defaultFormat;\n        }\n        var output = formatMoment(this, inputString);\n        return this.localeData().postformat(output);\n    }T04:07"}]
