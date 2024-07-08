@@ -1,0 +1,21 @@
+{
+  "name": "git-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "simple-git": "^3.25.0"
+  },
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1"
+  }
+}
